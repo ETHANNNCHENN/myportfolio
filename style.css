@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Slabo 27px"; 
+}
+
+.navigation {
+    display: flex;
+    border-bottom: 1px solid grey;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    background: black;
+
+}
+
+.navigation li {
+    flex-direction: row;
+    list-style: none;
+    border: 0px solid darkgreen;
+    margin: 10px;
+    padding: 10px;
+    font-size: 150%;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+   
+
+}
+
+.me {
+    width: 400px;
+   
+}
+
+
+
+}
+
+.lightpaint {
+    width: 637.5px;
+    border: 0;
+}
+
+.mams {
+    width: 317px;
+    border: 0;
+}
+
+.aves {
+    width: 424px;
+    border: 0;
+}
+
+.view {
+    width: 600px;
+}
+
+.tiitle {
+    font-size: 570%;
+    text-align: center;
+    background: black;
+    margin: 0;
+    padding: 30px;
+    color: white;
+  
+}
+
+/* img-container */
+.img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    
+    justify-content: center;
+}
+/* Pic-frames */
+.pic-frames img {
+    width: 2300px;
+    padding: 60px;
+}
+.pic-frames p {
+    font-size: 550%;
+    text-align: center;
+    flex-direction: row;
+    list-style: none;
+    color: black;
+}
+
