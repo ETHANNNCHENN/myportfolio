@@ -83,11 +83,11 @@ a {
 }
 /* Pic-frames */
 .rere {
-    width: 500px;
+    width: 2300px;
     padding: 10px;
 }
 .pic-frames p {
-    font-size: 100%;
+    font-size: 20%;
     text-align: center;
     flex-direction: row;
     list-style: none;
