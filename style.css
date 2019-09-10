@@ -81,9 +81,9 @@ a {
     
     justify-content: center;
 }
-/* Pic-frames */
+
 .pic-frames img {
-    width: 700px;
+    width: 600px;
     padding: 60px;
 }
 .pic-frames p {
