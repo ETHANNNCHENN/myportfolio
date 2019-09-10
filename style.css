@@ -94,8 +94,27 @@ a {
     color: black;
 }
 
-#pagetext {
+.pagetext {
     font-size: 100em;
     color: black;
 
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding: 50px;
+}
+
+.media img {
+    height: 300px;
+    margin: 10px;
+}
+
+.media h1 {
+    text-align: center;
 }
