@@ -33,14 +33,17 @@ a {
 
 }
 
+/* About */
 .me {
-    width: 50px;
+    width: 250px;
     padding: 30px;
 }
 
-
-
+.me-pic {
+    float: left;
 }
+
+
 
 .lp {
     height: 100px;
