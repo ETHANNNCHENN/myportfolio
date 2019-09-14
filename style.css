@@ -118,3 +118,8 @@ a {
 .media h1 {
     text-align: center;
 }
+
+.dog {
+    width: 300px;
+    padding: 15px;
+}
