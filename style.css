@@ -52,12 +52,13 @@ a {
 
 .mams {
     width: 300px;
-    border: 0;
+    border: 10px;
 }
 
 .aves {
     width: 410px;
-    border: 0;
+    border: 10px;
+
 }
 
 .view {
