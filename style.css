@@ -77,19 +77,17 @@ a {
 /* img-container */
 .img-container {
     display: grid;
-    grid-template-columns: 600px 600px 600px;
-    grid-auto-rows: auto;
+    grid-template-columns: auto auto ;
     background-color: #213f6b;
     justify-content: center;
     grid-gap: 1em;
-    height: 400px;
     padding: 1em;
 
 }
 /* Pic-frames */
 .rere {
     object-fit: cover;
-    width: 600px;
+    width: 500px;
   
 }
 
