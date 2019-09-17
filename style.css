@@ -77,18 +77,20 @@ a {
 /* img-container */
 .img-container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 600px 600px 600px;
+    grid-auto-rows: auto;
     background-color: #213f6b;
     justify-content: center;
-    grid-gap: 10px;
-    height: 300px;
-    padding: 10px;
+    grid-gap: 1em;
+    height: 400px;
+    padding: 1em;
 
 }
 /* Pic-frames */
 .rere {
     object-fit: cover;
-    width: 500px;
+    width: 600px;
+  
 }
 
 .pic-frames {
@@ -96,17 +98,19 @@ a {
 }
 .pic-frames h3 {
     font-size: 30px;
-    padding: 1.2px;
     list-style: none;
+    padding-left: 5px;
     color: black;
+    
 
 
 }
 .pic-frames p {
     font-size: 90%;
     list-style: none;
+    padding-left: 5px;
     color: black;
-    padding: 1.2px;
+    
 }
 
 .pagetext {
