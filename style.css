@@ -31,7 +31,6 @@ a {
 
    
 
-}
 
 /* About */
 .me {
@@ -68,10 +67,10 @@ a {
 .tiitle {
     font-size: 300%;
     text-align: center;
-    background: black;
+    background: cyan;
     margin: 0;
     padding: 30px;
-    color: white;
+    color: black;
   
 }
 
