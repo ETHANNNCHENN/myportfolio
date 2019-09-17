@@ -76,25 +76,37 @@ a {
 
 /* img-container */
 .img-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-    
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #213f6b;
     justify-content: center;
+    grid-gap: 1em;
+    height: 400px;
+    padding: 1em;
+
 }
 /* Pic-frames */
 .rere {
+    object-fit: cover;
     width: 500px;
-    padding: 10px;
 }
-.pic-frames p {
-    font-size: 120%;
-    text-align: center;
-    flex-direction: row;
+
+.pic-frame {
+    background-color: white;
+}
+.pic-frame h3 {
+    font-size: 120px;
+    padding: 5px 10px;
     list-style: none;
     color: black;
+
+
+}
+.pic-frames p {
+    font-size: 80%;
+    list-style: none;
+    color: black;
+    padding: 0px 10px;
 }
 
 .pagetext {
