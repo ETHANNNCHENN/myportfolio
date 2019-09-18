@@ -153,3 +153,17 @@ a {
     height: 696px;
     padding: 20px;
 }
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+      
+    }
+  }
+@media screen and (max-width: 600px) {
+    body {
+      background-color: green;
+     }
+    .rere {
+        width: 250px;
+
+    }}
