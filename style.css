@@ -184,3 +184,15 @@ a {
     .media h1 {
         font-size: 12px;
     }}
+
+    /* Music */
+    .popsong {
+        float: left;
+    } 
+    .violin {
+        float: right;
+    }
+    .popsong h1 {
+        padding: 30px;
+        text-align: justify;
+    }
