@@ -161,6 +161,13 @@ a {
     .rere {
         width: 350px;
     }
+    .media img {
+        height: 200px;
+        margin: 10px; 
+    }
+    .media h1 {
+        font-size: 24px;
+    }
   }
 @media screen and (max-width: 600px) {
     body {
@@ -169,4 +176,11 @@ a {
     .rere {
         width: 250px;
 
+    }
+    .media img {
+        height: 100px;
+        margin: 10px; 
+    }
+    .media h1 {
+        font-size: 12px;
     }}
