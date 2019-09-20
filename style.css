@@ -155,7 +155,7 @@ a {
 }
 @media screen and (max-width: 992px) {
     body {
-      background-color: blue;
+      background-color: #87CEEB;
       
     }
     .rere {
@@ -196,3 +196,13 @@ a {
         padding: 30px;
         text-align: justify;
     }
+   
+.backgroundpic {
+        background: #87CEEB;
+
+    }
+
+.backgroundpic img {
+    float: left;
+    width: 450px;
+}
