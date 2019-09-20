@@ -196,13 +196,17 @@ a {
         padding: 30px;
         text-align: justify;
     }
-   
+    /* Home */
 .backgroundpic {
         background: #87CEEB;
-
     }
 
-.backgroundpic img {
+.top img {
     float: left;
     width: 450px;
+}
+
+.welcome {
+    float: right;
+    font-size: 20px;
 }
