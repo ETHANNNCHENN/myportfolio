@@ -232,10 +232,11 @@ a {
 
     .violin {
         display: grid;
-    grid-template-columns: 500px;
+    grid-template-columns: auto 500 auto;
     grid-template-rows: 100px;
     background-color: orange;
-    justify-content: right;
+    justify-content: justify;
+    padding: 25px;
     }
     .popsong h1 {
         padding: 33px;
