@@ -33,13 +33,23 @@ a {
 
 
 /* About */
+
+.biggrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: whitesmoke;
+    justify-content: center;
+
+}
 .me {
     width: 425px;
     padding: 0px;
 }
 
 .me-pic {
-    float: left;
+    display: flex;
+    flex-direction: column;
+   
 }
 
 
@@ -55,11 +65,11 @@ a {
     grid-template-columns: auto auto auto;
     background-color: whitesmoke;
     justify-content: center;
-    font-size: 24px;}
+    font-size: 25px;}
 
 .meparagraph li {
     list-style: none;
-    padding: 40px;
+    padding: 45px;
 }    
 
 .mams {
