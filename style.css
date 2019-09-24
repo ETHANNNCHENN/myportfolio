@@ -242,11 +242,22 @@ a {
         justify-content: justify;
         padding: 25px;
     }
-    .violin p {
+    .violin img {
+        height: 500px;
+    }
+    .violin h3 {
+        font-size: 22.5px;
+    }
+    .violin li {
         color: black;
         font-weight: bold;
         text-align: justify;
         font-size: 30px;
+    }
+    .musicpiece {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
     }
     
     /* Home */
