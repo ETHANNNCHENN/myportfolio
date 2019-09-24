@@ -211,8 +211,25 @@ a {
     /* Music */
     .popsong {
         display: grid;
-        grid-auto-columns: 150px;
+        grid-auto-columns: auto auto auto;
+        justify-content: justify;
+        padding: 25px;
+
     } 
+    .popsong img {
+        height: 250px;
+    }
+    .popsong p {
+        color: black;
+        font-weight: bold;
+        text-align: justify;
+        font-size: 30px;
+    }
+    .artist {
+        display: flex;
+        flex-direction: row;
+    }
+
     .violin {
         display: grid;
     grid-template-columns: 500px;
