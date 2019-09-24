@@ -246,7 +246,7 @@ a {
         height: 500px;
     }
     .violin h3 {
-        font-size: 22.5px;
+        font-size: 22px;
     }
     .violin li {
         color: black;
@@ -277,3 +277,10 @@ a {
     background-color: yellow;
     justify-content: center;
     font-size: 18px;}
+
+.bike {
+    height: 358px;
+}
+.rexwanttoeat {
+    width: 349.73px;
+}
