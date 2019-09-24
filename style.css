@@ -219,6 +219,10 @@ a {
     .popsong img {
         height: 250px;
     }
+    .popsong h1 {
+        padding: 33px;
+        text-align: justify;
+    }
     .popsong p {
         color: black;
         font-weight: bold;
@@ -232,16 +236,19 @@ a {
 
     .violin {
         display: grid;
-    grid-template-columns: auto 500 auto;
-    grid-template-rows: 100px;
-    background-color: orange;
-    justify-content: justify;
-    padding: 25px;
+        grid-template-columns: auto 500 auto;
+        grid-template-rows: 100px;
+        background-color: orange;
+        justify-content: justify;
+        padding: 25px;
     }
-    .popsong h1 {
-        padding: 33px;
+    .violin p {
+        color: black;
+        font-weight: bold;
         text-align: justify;
+        font-size: 30px;
     }
+    
     /* Home */
 .backgroundpic {
         background: #87CEEB;
